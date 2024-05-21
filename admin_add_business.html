@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Business Profile</title>
+    <link rel="stylesheet" href="admin_styles.css">
+</head>
+<body>
+    <header>
+        <h1>Add Business Profile</h1>
+    </header>
+    <main>
+        <form id="add-business-form">
+            <label for="business-name">Business Name:</label>
+            <input type="text" id="business-name" name="business-name" required>
+
+            <label for="business-category">Category:</label>
+            <select id="business-category" name="business-category" required>
+                <option value="restaurants">Restaurants</option>
+                <option value="real-estate">Real Estate</option>
+                <option value="schools">Schools</option>
+                <option value="clinics">Clinics</option>
+                <option value="law-firms">Law Firms</option>
+            </select>
+
+            <label for="business-address">Address:</label>
+            <input type="text" id="business-address" name="business-address" required>
+
+            <label for="business-city">City:</label>
+            <input type="text" id="business-city" name="business-city" required>
+
+            <label for="business-description">Description:</label>
+            <textarea id="business-description" name="business-description" required></textarea>
+
+            <button type="submit">Add Business</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Business Information App</p>
+    </footer>
+</body>
+</html>
